@@ -46,4 +46,33 @@
 ```
 
 * maka hasilnya akan seperti ini 
-![StrukturHtml](img/Langkah1.png)
+![StrukturHtml](img/dasar_html.png)
+
+## Langkah 2 Mendeklarasikan CSS internal
+* Tambahkan kode berikut ke dalam HTML
+```
+<!-- CSS Internal -->
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    header {
+      min-height: 80px;
+      border-bottom: 1px solid #77CCEF;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #0F189F;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    h1 i {
+      color: #6d6a6b;
+    }
+  </style>
+  ```
+ * Maka hasilnya akan seperti berikut
+ ![css_internal](img/CSS_internal.png)
