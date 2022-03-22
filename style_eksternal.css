@@ -1,0 +1,47 @@
+nav {
+    background: #f30303;
+    padding: 10px;
+    color: #fff;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav .active,
+nav a:hover {
+    background: #2f03f3;
+}
+/* ID SELCTOR */
+#intro {
+    background: #36ca74;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color:#fff;
+}
+
+/* Menambahkan Class Selector */
+.button {
+    padding: 15px 20px;
+    background: hsl(336, 100%, 99%);
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+button .active
+button:hover{
+    background: #fff;
+}
+.btn-primary {
+    background: red;
+}
+.btn-primary:hover{
+    animation-duration: 10s;
+    background: #099249;
+}
