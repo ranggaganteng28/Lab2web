@@ -169,12 +169,17 @@ button:hover{
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
 > Apabila mendeklarasikan css internal, eksternal, inline pada selector yang sama maka yang dijalankan/diprioritaskan itu yang inline. Karena menambahkan css inline itu lebih spesifik dibanding css lainnya.
+
 Contoh saya fokus pada property background-color pada `a.button`:
+
 * Saya mendeklarasikan CSS _Eksternal_ pada `.button`.
+
 ![eksternal](img/external.png)
 
 * Saya mendeklarasikan CSS _Internal_ pada `.button` menambahkan `background-color : red`.
+
 ![internal](img/internal.png)
 
 * Saya mendeklarasikan CSS Inline pada tag `<a class="button">` menambahkan atribut `style="background-color : yellow"`.
+
 ![inline](img/inline.png)
