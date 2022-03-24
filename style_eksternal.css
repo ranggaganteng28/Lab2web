@@ -14,7 +14,7 @@ nav a:hover {
 }
 /* ID SELCTOR */
 #intro {
-    background: #36ca74;
+    background: #b877ee;
     border: 1px solid #099249;
     min-height: 100px;
     padding: 10px;
@@ -43,5 +43,5 @@ button:hover{
 }
 .btn-primary:hover{
     animation-duration: 10s;
-    background: #099249;
+    background: #f5b810;
 }
