@@ -183,3 +183,18 @@ Contoh saya fokus pada property background-color pada `a.button`:
 * Saya mendeklarasikan CSS Inline pada tag `<a class="button">` menambahkan atribut `style="background-color : yellow"`.
 
 ![inline](img/inline.png)
+
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! `<p id="paragraf-1" class="text-paragraf">`
+Tentu saja yang akan diprioritaskan itu ID.
+
+Contoh saya menambahkan style pada element ini `<p id="paragraf-1" class="text-paragraf">`
+```css
+#paragraf-1 {
+    color: red;
+}
+
+.text-paragraf {
+    color: blue;
+}
+```
+![paragraf](img/paragraf.png)
